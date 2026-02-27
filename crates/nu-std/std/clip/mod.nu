@@ -9,7 +9,7 @@ use std/clip52
 @example "Copy a string to the clipboard" {
   "Hello" | clip52 copy
 }
-@deprecated "Use `clip copy` without `use std/clip`, for OCS 52 copy request use `clip52 copy` using `std/clip52` module"
+@deprecated "Use `clip copy` without `use std/clip`. For OCS 52 copy request use `clip52 copy` using `std/clip52` module"
 export def copy [
   --ansi (-a)                 # Copy ansi formatting
 ]: any -> nothing {
